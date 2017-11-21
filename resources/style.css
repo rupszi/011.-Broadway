@@ -1,0 +1,41 @@
+.home {
+  width: auto;
+  height: auto;
+  background-image: url("../resources/building.png");
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+.home p {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.about p, .work p, .team.contact p {
+  font-size: 14px;
+}
+
+.middlehead {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  width: auto;
+  height: auto;
+  background-image: url("../resources/building.png");
+}
