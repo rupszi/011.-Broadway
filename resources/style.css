@@ -2,6 +2,11 @@
   width: auto;
   height: auto;
   background-image: url("../resources/building.png");
+  background-size: cover;
+}
+
+.link a:link, .link a:visited {
+  color: white !important;
 }
 
 h1 {
@@ -10,9 +15,9 @@ h1 {
   color: white;
 }
 
-.home p {
+h5 {
   font-size: 18px;
-  color: white;
+  color: inherit;
   font-weight: bold;
   font-family: Helvetica;
 }
@@ -27,7 +32,7 @@ h3 {
   font-weight: bold;
 }
 
-.about p, .work p, .team.contact p {
+.about p, .work p, .team p, .contact p {
   font-size: 14px;
 }
 
@@ -38,4 +43,18 @@ h3 {
   width: auto;
   height: auto;
   background-image: url("../resources/building.png");
+}
+
+.footer {
+  text-align: left;
+  color: white;
+  background-color: dimgray;
+}
+.footer p {
+  color: white;
+  font-weight: bold;
+}
+.footer #copy {
+  font-size: 11px;
+  color: white;
 }
